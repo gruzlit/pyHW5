@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.maximize_window()
 driver.get("http://uitestingplayground.com/classattr")
 
-driver.find_element(By.CSS_SELECTOR,"button.btn.class3.btn-primary.btn-test").click()
+driver.find_element(By.CSS_SELECTOR, "button.btn.class3.btn-primary.btn-test").click()
 
 sleep(10)
 
